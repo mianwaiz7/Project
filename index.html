@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SK SPORTS | Premium Sporting Goods</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <img src="C:\Users\mianw\OneDrive\Desktop\SK PRODUCTS\IMAGES">
+</head>
+<body>
+    <!-- Top Banner -->
+    <div class="top-banner">
+        <p>Free shipping on orders over RS 5000 | Shop Now!</p>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <h1>SK PRODUCTS</h1>
+            </div>
+            <div class="search-container">
+                <input type="text" placeholder="Search for products...">
+                <button class="search-btn"><i class="fas fa-search"></i></button>
+            </div>
+            <nav class="desktop-nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropbtn">Categories <i class="fas fa-chevron-down"></i></a>
+                        <div class="dropdown-content">
+                            <a href="#">Football</a>
+                            <a href="#">Basketball</a>
+                            <a href="#">Tennis</a>
+                            <a href="#">Running</a>
+                            <a href="#">Fitness</a>
+                        </div>
+                    </li>
+                    <li><a href="About.html">Contact</a></li>
+                    <li><a href="Contact.html">About</a></li>
+                    <li><a href="login 2.html">Login</a></li>
+                </ul>
+            </nav>
+            <!--<div class="nav-icons">
+                <a href="#" class="icon-link"><i class="fas fa-user"></i></a>
+                <a href="#" class="icon-link" id="cart-icon"><i class="fas fa-shopping-cart"></i><span class="cart-count">0</span></a>
+                <a href="#" class="icon-link"><i class="fas fa-heart"></i></a>
+                <button class="mobile-menu-btn"><i class="fas fa-bars"></i></button>
+            </div>-->
+        </div>
+    </header>
+    
+    <!-- Mobile Navigation -->
+    <div class="mobile-nav">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li class="mobile-dropdown">
+                <a href="#">Categories <i class="fas fa-chevron-down"></i></a>
+                <ul class="mobile-dropdown-content">
+                    <li><a href="#">Football</a></li>
+                    <li><a href="#">Basketball</a></li>
+                    <li><a href="#">Tennis</a></li>
+                    <li><a href="#">Running</a></li>
+                    <li><a href="#">Fitness</a></li>
+                </ul>
+            </li>
+            <li><a href="#">New Arrivals</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+            <li><a href="About.html">About</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <div class="hero-content">
+            <h2>GEAR UP FOR GREATNESS</h2>
+            <p>Premium sports equipment for every athlete</p>
+            <button class="hero-btn">SHOP NOW</button>
+        </div>
+    </div>
+
+    <!-- Featured Categories -->
+    <section class="featured-categories">
+        <h2 class="section-title">SHOP BY CATEGORY</h2>
+        <div class="category-grid">
+            <div class="category-card">
+                <img src="images/baseball.jpg" alt="Baseball" class="category-img">
+                <h3>Baseball</h3>
+                <a href="#" class="category-link">Shop Now</a>
+            </div>
+            <div class="category-card">
+                <img src="images/basketball-7121617.jpg" alt="Basketball" class="category-img">
+                <h3>Basketball</h3>
+                <a href="#" class="category-link">Shop Now</a>
+            </div>
+            <div class="category-card">
+                <img src="images/soccer-488700.jpg" alt="Football" class="category-img">
+                <h3>Football</h3>
+                <a href="#" class="category-link">Shop Now</a>
+            </div>
+            <div class="category-card">
+                <img src="images/running-6252827.jpg" alt="Running" class="category-img">
+                <h3>Running Women Fitness</h3>
+                <a href="#" class="category-link">Shop Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="featured-products">
+        <h2 class="section-title">NEW ARRIVALS</h2>
+        <div class="product-grid" id="product-container">
+            <!-- Products will be added via JavaScript -->
+        </div>
+    </section>
+
+    <!-- Banner -->
+    <section class="promo-banner">
+        <div class="promo-content">
+            <h2>SUMMER SALE</h2>
+            <p>Up to 40% off select items</p>
+            <button class="promo-btn">Shop the Sale</button>
+        </div>
+    </section>
+
+    <!-- Trending Products -->
+    <section class="trending-products">
+        <h2 class="section-title">TRENDING NOW</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <div class="product-badge">Best Seller</div>
+                <div class="wishlist-icon"><i class="far fa-heart"></i></div>
+                <img src="images/leisure time.png" alt="Product" class="product-img">
+                <div class="product-details">
+                    <p class="product-category">leisure</p>
+                    <h3 class="product-title">Elite Leisure Accessories</h3>
+                    <div class="product-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span>(42)</span>
+                    </div>
+                    <p class="product-price"></p>
+                </div>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <div class="wishlist-icon"><i class="far fa-heart"></i></div>
+                <img src="images/shirt.jpg" alt="Product" class="product-img">
+                <div class="product-details">
+                    <p class="product-category">T-Shirt</p>
+                    <h3 class="product-title">Baselayer T-shirt</h3>
+                    <div class="product-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <span>(28)</span>
+                    </div>
+                    <p class="product-price"></p>
+                </div>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <div class="product-badge">New</div>
+                <div class="wishlist-icon"><i class="far fa-heart"></i></div>
+                <img src="images/socks.jpg" alt="Product" class="product-img">
+                <div class="product-details">
+                    <p class="product-category">Accessories</p>
+                    <h3 class="product-title">Football Socks</h3>
+                    <div class="product-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>(19)</span>
+                    </div>
+                    <p class="product-price"></p>
+                </div>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <div class="product-badge">Sale</div>
+                <div class="wishlist-icon"><i class="far fa-heart"></i></div>
+                <img src="images/warmer.jpg" alt="Product" class="product-img">
+                <div class="product-details">
+                    <p class="product-category">warmer</p>
+                    <h3 class="product-title">Premium Neck Warmer - Size 5</h3>
+                    <div class="product-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <i class="far fa-star"></i>
+                        <span>(34)</span>
+                    </div>
+                    <p class="product-price">Discounted<span class="original-price"></span></p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div> 
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section class="features">
+        <div class="feature">
+            <i class="fas fa-shipping-fast"></i>
+            <h3>Free Shipping</h3>
+            <p>On orders over 5000</p>
+        </div>
+        <div class="feature">
+            <i class="fas fa-undo"></i>
+            <h3>Easy Returns</h3>
+            <p>30-day return policy</p>
+        </div>
+        <div class="feature">
+            <i class="fas fa-shield-alt"></i>
+            <h3>Secure Checkout</h3>
+            <p>Safe & protected</p>
+        </div>
+        <div class="feature">
+            <i class="fas fa-headset"></i>
+            <h3>24/7 Support</h3>
+            <p>We're here to help</p>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter">
+        <div class="newsletter-content">
+            <h2>JOIN OUR NEWSLETTER</h2>
+            <p>Subscribe to get special offers and stay updated on the latest arrivals</p>
+            <form id="newsletter-form">
+                <input type="email" placeholder="Enter your email address" required>
+                <button type="submit">SUBSCRIBE</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Cart Sidebar -->
+    <div class="cart-sidebar">
+        <div class="cart-header">
+            <h3>Shopping Cart</h3>
+            <button class="close-cart"><i class="fas fa-times"></i></button>
+        </div>
+        <div class="cart-items" id="cart-items">
+            <!-- Cart items will be added via JavaScript -->
+        </div>
+        <div class="cart-footer">
+            <div class="cart-total">
+                <span>Total:</span>
+                <span id="cart-total-amount">$0.00</span>
+            </div>
+            <button class="checkout-btn">Proceed to Checkout</button>
+            <button class="view-cart-btn">View Cart</button>
+        </div>
+    </div>
+    <div class="cart-overlay"></div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>SK PRODUCTS</h3>
+                <p>Providing premium sporting goods for professionals and amateurs alike since 2025.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-column">
+                <h3>Shop</h3>
+                <ul>
+                    <li><a href="#">Football</a></li>
+                    <li><a href="#">Basketball</a></li>
+                    <li><a href="#">Tennis</a></li>
+                    <li><a href="#">Running</a></li>
+                    <li><a href="#">Fitness</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Customer Service</h3>
+                <ul>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Shipping Policy</a></li>
+                    <li><a href="#">Returns & Exchanges</a></li>
+                    <li><a href="#">Size Guide</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Account</h3>
+                <ul>
+                    <li><a href="#">My Account</a></li>
+                    <li><a href="#">Order History</a></li>
+                    <li><a href="#">Wishlist</a></li>
+                    <li><a href="#">Newsletter</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 SK Sports. All Rights Reserved.</p>
+            <div class="payment-methods">
+                <i class="fab fa-cc-visa"></i>
+                <i class="fab fa-cc-mastercard"></i>
+                <i class="fab fa-cc-amex"></i>
+                <i class="fab fa-cc-paypal"></i>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
